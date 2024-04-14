@@ -1,13 +1,11 @@
 {
-  "name": "persist-sqlite",
+  "name": "save-in-memory-sqlite-db",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Save in-memory SQLite database to a file",
   "scripts": {
     "start": "npx ts-node main.ts"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Milos Vuckovic",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.12.7",

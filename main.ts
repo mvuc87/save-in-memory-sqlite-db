@@ -1,7 +1,7 @@
 import { Database } from 'sqlite3';
 import { promisify } from 'util';
 
-const filepath = "C:\\temp\\storage-file";
+const filepath = "C:\\temp\\db";
 
 const createContactsTableSql = `
   CREATE TABLE contacts (
